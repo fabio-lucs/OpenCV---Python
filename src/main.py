@@ -10,7 +10,8 @@ def show_Image(img):
 
 
 def main():
-    img = cv2.imread('src/imgs/ballons.jpeg')
+    img = cv2.imread('src/imgs/nature.jpg')
+   
     show_Image(img)
 
 main()    
