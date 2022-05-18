@@ -55,7 +55,7 @@ def showMultipleImageGrid(imgsArray, titlesArray, x, y):
 def plotSingleImage():
     #criando grid com a imagem original apenas
     imgOriginal = cv2.imread("src/imgs/ballons.jpeg")
-    showImageGrid(imgOriginal, "Foto da Ada")
+    showImageGrid(imgOriginal, "Foto de balões")
 
 def plotTwoImageVertical():
     imgOriginal = cv2.imread("src/imgs/ballons.jpeg")
@@ -122,7 +122,8 @@ def plotTwoImageHorizontal():
     showMultipleImageGrid(imgsArray, title, 2, 1)
 
 def main():
-    plotSixImages()
-
+    img = cv2.imread('src/imgs/ballons.jpeg')
+    showImageGrid(img, 'Balões')
+    
 if __name__ == "__main__":
     main()
