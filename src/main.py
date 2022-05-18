@@ -124,7 +124,7 @@ def plotTwoImageHorizontal():
 def main():
     img = cv2.imread('src/imgs/ballons.jpeg')
     showImageGrid(img, 'Balões')
-    print('Teste')
+    
 
 if __name__ == "__main__":
     main()
